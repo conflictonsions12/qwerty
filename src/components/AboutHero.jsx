@@ -71,10 +71,10 @@ export default function AboutIntro() {
           {/* Left / Top: Paragraphs */}
           <div className="space-y-6 text-gray-700 text-base md:text-lg lg:text-xl leading-relaxed">
             <p>
-              Dhorne agro  Consulting offers comprehensive services like crop inspections, soil testing, and irrigation planning to boost agricultural productivity and sustainability through high-quality, reliable consulting.
+              Dhorne agro  consulting offers comprehensive services like crop inspections, soil testing, and irrigation planning to boost agricultural productivity and sustainability through high-quality, reliable consulting.
             </p>
             <p>
-              Our team is dedicated to helping farmers achieve optimal agricultural outcomes. With a focus on innovation and client-specific strategies, we ensure each project benefits from tailored advice and state-of-the-art techniques, enhancing the efficiency and effectiveness of farming operations.
+              We are dedicated to helping farmers achieve optimal agricultural outcomes. With a focus on innovation and client-specific strategies, we ensure each project benefits from tailored advice and state-of-the-art techniques, enhancing the efficiency and effectiveness of farming operations.
             </p>
           </div>
 
