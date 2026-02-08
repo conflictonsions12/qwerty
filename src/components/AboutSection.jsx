@@ -109,7 +109,7 @@ export default function AboutSection({ data }) {
             {/* Title */}
             <motion.h2
               variants={textVariants}
-              className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-6 leading-tight"
+              className="text-3xl md:text-4xl lg:text-4xl font-bold text-gray-900 mb-6 leading-tight"
             >
               {data.title}
             </motion.h2>
