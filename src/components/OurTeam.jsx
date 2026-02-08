@@ -28,9 +28,7 @@ export default function OurTeam() {
           <span className="text-sm md:text-base font-semibold text-gray-500 tracking-widest uppercase">
             Meet The Founder
           </span>
-          <h2 className="mt-4 text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900">
-            Meet The Professionals
-          </h2>
+        
         </div>
 
         {/* Added "justify-center" to the container */}
