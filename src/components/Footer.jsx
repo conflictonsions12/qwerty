@@ -55,9 +55,9 @@ export default function Footer({ data }) {
             {/* Newsletter Signup */}
             <div className="mt-8">
               <h4 className="text-sm font-semibold uppercase tracking-widest text-gray-400 mb-3">
-                Receive Special Offers & Promos
+                To Receive Special Offers & Promos Reach out to us on Contact page
               </h4>
-              <div className="flex gap-2">
+              {/*  <div className="flex gap-2">
                 <input
                   type="email"
                   placeholder="Enter your email"
@@ -70,7 +70,7 @@ export default function Footer({ data }) {
                 >
                   <FaArrowRight className="w-4 h-4" />
                 </motion.button>
-              </div>
+              </div>*/}
             </div>
           </motion.div>
 
