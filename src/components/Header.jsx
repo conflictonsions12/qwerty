@@ -52,7 +52,7 @@ export default function  Header() {
       <div className="hidden md:flex items-stretch bg-white">
         {/* Left side: Brand name with white background */}
         <div className="flex items-center px-6 lg:px-16 py-4 bg-white">
-          <h1 className="text-2xl font-extrabold tracking-tight">
+          <h1 className="text-3xl font-extrabold tracking-tight">
             <span className="text-green-600">Dhorne</span>{" "}
             <span className="text-gray-900">agro consult</span>
           </h1>
