@@ -25,10 +25,10 @@ export default function  Header() {
     <header className="w-full sticky top-0 z-50 bg-white">
       {/* Top contact bar */}
       <div className="flex items-center justify-between px-6 lg:px-16 py-4 bg-white">
-        <Link href="/" className="flex items-center gap-3">
-          {/* Text logo placeholder */}
+        {/* <Link href="/" className="flex items-center gap-3">
+          Text logo placeholder
           <div className="w-12 h-12 bg-gray-200 rounded" />
-        </Link>
+        </Link>  */}
 
         <div className="flex items-center gap-6 text-sm">
           <div className="hidden md:flex flex-col text-right">
