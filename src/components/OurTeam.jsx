@@ -5,7 +5,7 @@ const teamMembers = [
   {
     name: "David Horne",
     title: "Owner",
-    imageUrl: "/david.jpg",
+    imageUrl: "/David.jpg",
   },
   // {
   //   name: "Cody Bierlink",
