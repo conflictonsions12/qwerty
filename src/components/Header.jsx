@@ -26,7 +26,7 @@ export default function  Header() {
       {/* Top contact bar */}
       <div className="flex items-center justify-between px-6 lg:px-16 py-4 bg-white">
          <Link href="/" className="flex items-center gap-3">
-          Text logo placeholder
+           {/* Text logo placeholder */}
           <div className="w-12 h-12 bg-gray-200 rounded" />
         </Link>  
 
