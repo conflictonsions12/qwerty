@@ -26,7 +26,7 @@ export default function OurTeam() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12 md:mb-16">
           <span className="text-sm md:text-base font-semibold text-gray-500 tracking-widest uppercase">
-            Meet The Founder
+            
           </span>
         
         </div>
