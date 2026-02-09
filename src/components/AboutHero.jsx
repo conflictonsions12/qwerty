@@ -174,9 +174,7 @@ export default function AboutIntro() {
                   text-gray-800 text-base md:text-lg leading-relaxed
                 "
               >
-                <h4 className="text-xl md:text-2xl font-bold text-green-800 mb-4">
-                  {activeCard.title}
-                </h4>
+                
                 <p>{activeCard.description}</p>
               </motion.div>
             )}
