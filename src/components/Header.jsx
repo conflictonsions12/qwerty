@@ -33,8 +33,8 @@ export default function  Header() {
     height={48}         
     className="rounded" 
     priority             
-  />
-          <div className="w-12 h-12 bg-gray-200 rounded" />
+  /> 
+          
         </Link>  
 
         <div className="flex items-center gap-6 text-sm">
