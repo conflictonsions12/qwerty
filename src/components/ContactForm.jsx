@@ -143,7 +143,7 @@ export default function ContactPage() {
               onChange={handleChange}
               required
               className="w-full px-5 py-3.5 bg-white border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 outline-none transition"
-              placeholder="123 Farm Road"
+              placeholder=" "
             />
           </div>
 
@@ -159,7 +159,7 @@ export default function ContactPage() {
               value={formData.zipCode}
               onChange={handleChange}
               className="w-full px-5 py-3.5 bg-white border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 outline-none transition"
-              placeholder="100001"
+              placeholder=" "
             />
           </div>
 
