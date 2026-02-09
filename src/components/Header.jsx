@@ -29,8 +29,8 @@ export default function  Header() {
            <Image 
     src="/Logo.jpg"      
     alt="Company Logo"   
-    width={48}          
-    height={48}         
+    width={70}          
+    height={70}         
     className="rounded" 
     priority             
   /> 
