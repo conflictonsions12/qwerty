@@ -1,6 +1,6 @@
 // src/app/components/Header.jsx
 "use client";
-
+import Image from 'next/image';
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -26,7 +26,14 @@ export default function  Header() {
       {/* Top contact bar */}
       <div className="flex items-center justify-between px-6 lg:px-16 py-4 bg-white">
          <Link href="/" className="flex items-center gap-3">
-           {/* Text logo placeholder */}
+           <Image 
+    src="/logo.jpg"      
+    alt="Company Logo"   
+    width={48}          
+    height={48}         
+    className="rounded" 
+    priority             
+  />
           <div className="w-12 h-12 bg-gray-200 rounded" />
         </Link>  
 
