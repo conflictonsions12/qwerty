@@ -27,7 +27,7 @@ export default function  Header() {
       <div className="flex items-center justify-between px-6 lg:px-16 py-4 bg-white">
          <Link href="/" className="flex items-center gap-3">
            <Image 
-    src="/logo.jpg"      
+    src="/Logo.jpg"      
     alt="Company Logo"   
     width={48}          
     height={48}         
