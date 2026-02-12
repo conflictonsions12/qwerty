@@ -78,7 +78,7 @@ export default function AboutIntro() {
         <h1 className="text-center text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-gray-900 mb-10 leading-tight">
           Enhancing Agricultural Yield Through Expert Consulting
           <br className="hidden sm:block" />
-          <span className="text-green-700">Since 1981</span>
+          <span className="text-green-700">Since 2009</span>
         </h1>
 
         {/* Main grid */}
