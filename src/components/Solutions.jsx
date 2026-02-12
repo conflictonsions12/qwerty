@@ -35,9 +35,7 @@ export default function Solutions({ solutions }) {
         "Ensure optimal crop health with our expert soil testing services. Identify mineral richness and contaminants. Free consultation available. Call to schedule.",
       "Crop Planning":
         "Optimize your farming with expert crop inspections and planning. We offer detailed guidance on the best crops for your land and essential care recommendations.",
-      Equipment:
-        "Optimize your agricultural machinery's efficiency with our precise equipment calibration services, ensuring maximum productivity and operational accuracy.",
-    };
+      };
     return hoverTexts[title];
   };
 
