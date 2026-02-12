@@ -3,16 +3,14 @@ import Link from "next/link";
 import { services } from "@/constants/services";
 import { notFound } from "next/navigation";
 
-/*
 export async function generateStaticParams() {
   return services.map((service) => ({
     slug: service.slug,
   }));
 }
-*/
 
 export async function generateMetadata({ params }) {
-  const { slug } = params; // removed incorrect await
+  const { slug } = await params;
   const service = services.find((s) => s.slug === slug);
 
   if (!service) {
@@ -28,7 +26,7 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function ServiceDetailPage({ params }) {
-  const { slug } = params; // removed incorrect await
+  const { slug } = await params;
   const service = services.find((s) => s.slug === slug);
 
   if (!service) {
