@@ -140,20 +140,20 @@ export default function Footer({ data }) {
               </div>
 
               {/* Email */}
-              {/* <div className="flex items-start gap-3">
+               <div className="flex items-start gap-3">
                 <FaEnvelope className="w-5 h-5 text-green-600 mt-1 shrink-0" />
                 <div>
                   <p className="text-gray-400 text-xs uppercase font-semibold">
                     Email
                   </p>
                   <a
-                    href="mailto:nealf@vikingcable.net"
+                    href="mailto:davidhorneconsult@gmail.com"
                     className="text-gray-300 hover:text-green-400 transition-colors text-sm break-all"
                   >
-                    nealf@vikingcable.net
+                    davidhorneconsult@gmail.com
                   </a>
                 </div>
-              </div> */}
+              </div> 
 
               {/* Address */}
               {/* <div className="flex items-start gap-3">
