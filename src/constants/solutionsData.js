@@ -16,11 +16,11 @@ export const solutionsData = [
     image: "/crop-planning.jpg",
     showDescription: true,
   },
-  {
-    id: 3,
-    title: "Equipment",
-    icon: "users", // user/people icon
-    image: "/equipment.jpg",
-    description: null, // No description for this card
-  },
+  // {
+  //   id: 3,
+  //   title: "Equipment",
+  //   icon: "users", // user/people icon
+  //   image: "/equipment.jpg",
+  //   description: null, // No description for this card
+  // },
 ];
