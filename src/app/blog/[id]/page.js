@@ -41,7 +41,7 @@ export default async function BlogPost({ params }) {
   return (
     <>
       {/* Hero Image */}
-      <section className="relative w-full h-96 sm:h-125 md:h-150 lg:h-175 overflow-hidden">
+       <section className="relative w-full h-[400px] overflow-hidden">
         <Image
           src={post.image}
           alt={post.title}
