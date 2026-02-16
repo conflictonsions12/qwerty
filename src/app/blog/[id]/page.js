@@ -42,13 +42,17 @@ export default async function BlogPost({ params }) {
     <>
       {/* Hero Image */}
        <section className="relative w-full h-[400px] overflow-hidden">
-        <Image
-          src={post.image}
-          alt={post.title}
-          fill
-          className="object-cover"
-         priority
-        />
+      
+
+<Image
+  src={post.image}
+  alt={post.title}
+  width={800}
+  height={600}
+  className="object-cover"
+  priority
+/>
+
         <div className="absolute inset-0 bg-black/30" />
       </section>
 
