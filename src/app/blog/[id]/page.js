@@ -11,7 +11,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }) {
-  const { id } = await params;
+  const { id } = params;
   const post = blogPosts.find((p) => String(p.id) === String(id));
 
   if (!post) {
@@ -27,7 +27,7 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function BlogPost({ params }) {
-  const { id } = await params;
+  const { id } = params;
   const post = blogPosts.find((p) => String(p.id) === String(id));
 
   if (!post) {
@@ -40,16 +40,19 @@ export default async function BlogPost({ params }) {
 
   return (
     <>
-      {/* Hero Image */}
-       <section className="relative w-full h-[400px] overflow-hidden">
-        <Image
-          src={post.image}
-          alt={post.title}
-          fill
-          className="object-cover"
-          priority
-        />
-        <div className="absolute inset-0 bg-black/30" />
+      {/* ✅ Improved Hero Image (Centered, Not Stretched, Not Blurry) */}
+      <section className="py-12 px-6 lg:px-24 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <div className="relative w-full aspect-[16/9] rounded-2xl overflow-hidden shadow-lg">
+            <Image
+              src={post.image}
+              alt={post.title}
+              fill
+              className="object-contain"
+              priority
+            />
+          </div>
+        </div>
       </section>
 
       {/* Back Link */}
@@ -72,7 +75,9 @@ export default async function BlogPost({ params }) {
           <div className="flex flex-wrap gap-4 mb-6 text-sm text-gray-600">
             <div className="flex items-center gap-1">
               <FaTag className="w-4 h-4 text-green-600" />
-              <span className="font-semibold text-green-600">{post.category}</span>
+              <span className="font-semibold text-green-600">
+                {post.category}
+              </span>
             </div>
             <div className="flex items-center gap-1">
               <FaUser className="w-4 h-4" />
@@ -81,15 +86,16 @@ export default async function BlogPost({ params }) {
           </div>
 
           {/* Title */}
-          <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-8">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-8">
             {post.title}
           </h1>
 
-          {/* Content */}
+          {/* Excerpt */}
           <p className="text-gray-700 text-lg font-semibold mb-8">
             {post.excerpt}
           </p>
 
+          {/* Content */}
           <div
             className="prose prose-lg max-w-none text-gray-700 space-y-6"
             dangerouslySetInnerHTML={{ __html: post.content }}
@@ -111,7 +117,7 @@ export default async function BlogPost({ params }) {
             </Link>
           </div>
 
-          {/* Related */}
+          {/* Related Articles */}
           {relatedPosts.length > 0 && (
             <div className="border-t border-gray-200 pt-12 mt-12">
               <h3 className="text-2xl font-extrabold text-gray-900 mb-8">
