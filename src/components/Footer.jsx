@@ -107,7 +107,7 @@ export default function Footer({ data }) {
               {data.latestBlogPosts.map((post) => (
                 <motion.li key={post.id} whileHover={{ x: 5 }}>
                   <Link
-                    href={`/blog/${post.id}`
+                    href={`/blog/${post.id}`}
                     className="text-gray-300 hover:text-green-400 transition-colors text-sm leading-snug line-clamp-2"
                   >
                     {post.title}
