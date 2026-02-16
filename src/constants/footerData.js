@@ -12,18 +12,18 @@ export const footerData = {
     {
       id: 1,
       title: "A Guide to Crop Rotation with modern implications and Its Benefits",
-      href: "/blog/crop-rotation-guide",
+      // href: "/blog/crop-rotation-guide",
     },
     {
       id: 2,
       title:
         "How to Test Soil Results and Implement Effective Fertilization Strategies",
-      href: "/blog/soil-testing-fertilization",
+      // href: "/blog/soil-testing-fertilization",
     },
     {
       id: 3,
       title: "The Importance of Soil Testing in Sustainable Agriculture",
-      href: "/blog/soil-testing-sustainable",
+      // href: "/blog/soil-testing-sustainable",
     },
   ],
 };
