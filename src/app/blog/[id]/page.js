@@ -41,20 +41,20 @@ export default async function BlogPost({ params }) {
   return (
     <>
       {/* Hero Image */}
-       <section className="relative w-full h-[400px] overflow-hidden">
-      
+      <section className="w-full flex justify-center overflow-hidden py-6">
+  <div className="relative">
+    <Image
+      src={post.image}
+      alt={post.title}
+      width={500}
+      height={500}
+      className="object-cover"
+      priority
+    />
+    <div className="absolute inset-0 bg-black/30" />
+  </div>
+</section>
 
-<Image
-  src={post.image}
-  alt={post.title}
-  width={800}
-  height={600}
-  className="object-cover"
-  priority
-/>
-
-        <div className="absolute inset-0 bg-black/30" />
-      </section>
 
       {/* Back Link */}
       <section className="py-6 px-6 lg:px-24 bg-white border-b border-gray-200">
