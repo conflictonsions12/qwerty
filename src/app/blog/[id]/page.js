@@ -46,8 +46,8 @@ export default async function BlogPost({ params }) {
     <Image
       src={post.image}
       alt={post.title}
-      width={500}
-      height={500}
+      width={800}
+      height={600}
       className="object-cover"
       priority
     />
